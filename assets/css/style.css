@@ -21,16 +21,6 @@ ul{ padding:0; margin:0; list-style:none;}
 .navbar-collapse{ position:absolute; top:40px; width:200px; right:0;}
 .navbar-collapse ul{ text-align:right;}
 .navbar-collapse ul .nav-link{ padding:5px 0; color:#FFF !important;}
-/*.offcanvas-collapse { position: fixed; top: 0;  bottom: 0; right: 100%; left:-300px; width: 300px; padding-right: 1rem; padding-left: 1rem; overflow-y: auto; visibility: hidden;
-    background-color: #343a40; transition-timing-function: ease-in-out; transition-duration: .3s; transition-property: left, visibility;}
-.offcanvas-collapse{ align-items:start; -moz-background-clip: padding; -webkit-background-clip: padding;  background-clip: padding-box;border-right:5px solid rgba(0, 0, 0, 0.2);}
-.offcanvas-collapse.open { left: 0; top:0; visibility: visible;}
-.navbar-expand-lg .navbar-nav { -ms-flex-direction: column; flex-direction: column;}
-.nav-scroller { position: relative; z-index: 2; height: 2.75rem; overflow-y: hidden;}
-.nav-scroller .nav { display: -ms-flexbox; display: flex; -ms-flex-wrap: nowrap; flex-wrap: nowrap; padding-bottom: 1rem; margin-top: -1px; overflow-x: auto; color: rgba(255, 255, 255, .75);text-align: center; white-space: nowrap; -webkit-overflow-scrolling: touch;}
-.nav-underline .nav-link { padding-top: .75rem; padding-bottom: .75rem; font-size: .875rem; color: #6c757d;}
-.nav-underline .nav-link:hover { color: #007bff;}
-.nav-underline .active { font-weight: 500; color: #343a40;}*/
 .btns{ position: absolute; top: 30px;right: 30px;}
 
 .albums{ background:#fffbe7; text-align:center; padding:80px 0;}
@@ -55,7 +45,7 @@ p{ font-size:20px; line-height:30px; color:#4c4c4c;}
 .table tr td span{ font-size:14px; font-weight:300;}
 .table button{ border:0; background:#FFF; color:#000; font-size:16px; font-family:Arial, Helvetica, sans-serif; border-radius:5px; padding:10px 20px;}
 .gallery{ background:#f5f4ef; padding:80px 0;}
-.gallery .heading-bg, .latest-video .heading-bg{background:url(../images/hed2.png) no-repeat bottom center; margin-bottom:30px;}
+.gallery .heading-bg, .latest-video .heading-bg, .box2 .heading-bg{background:url(../images/hed2.png) no-repeat bottom center; margin-bottom:30px;}
 .img-thumbnail{ border-radius:0; padding:.60rem; border:none;}
 .latest-video { padding:80px 0;}
 
@@ -67,6 +57,23 @@ p{ font-size:20px; line-height:30px; color:#4c4c4c;}
 .social i{ margin:0 10px; font-size:20px;  }
 .copy{font-size:14px; margin-top:10px;}
 .vid-slider{ margin-top:80px;}
+
+
+/*=======28-11-2020=====*/
+.trick-roping{background:url(../images/bg3.jpg) no-repeat top center; width:100%; background-size:cover; padding:19% 0; text-align:center;}
+.trick-roping .heading{ font-size:50px; color:#FFF; font-weight:700;}
+.trick-roping p{ padding:80px 10% 0;}
+.innnerbox2{ border:10px solid #b5bdc9; padding:10px; margin:0 25px;}
+
+.box1{background:url(../images/bg4.jpg) no-repeat top center; width:100%; background-size:cover; padding:100px 0 80px; text-align:center;}
+.box1 p{ padding:40px 0;}
+.box2{background:url(../images/bg5.jpg) no-repeat top center; width:100%; background-size:cover; padding:100px 0 80px; text-align:center;}
+.textbox1{ text-align:left; padding:60px;display: flex; flex-wrap: wrap; align-items: center; height: 100%;}
+.textbox1 strong{ margin-bottom:10px;}
+.sp1{ margin-top:100px;}
+.new-gall img{ padding:0; border:none; width:98%;}
+.col-lg-4{ text-align:center;}
+
 
 @media (min-width: 768px) {
 

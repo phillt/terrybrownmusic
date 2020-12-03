@@ -1,5 +1,5 @@
 <div class="footer">
-    <img src="assets/images/logo2.png" />
+    <img src="{{ site.baseurl }}/assets/images/logo2.png" />
     
     <div class="social">
         <i class="fab fa-facebook-f"></i>  <i class="fab fa-linkedin"></i>  <i class="fab fa-twitter"></i>  <i class="fab fa-youtube"></i>  <i class="fab fa-spotify"></i>
@@ -15,3 +15,18 @@
     </div>
     <div class="copy">© 2020 terrybrownmusic.com</div>
     </div>
+    <script> 
+        $(document).ready(function() {
+         // executes when HTML-Document is loaded and DOM is ready
+        console.log("document is ready");
+        $('[data-toggle="offcanvas"], #navToggle').on('click', function () {
+        $('.offcanvas-collapse').toggleClass('open')
+          })
+        // document ready  
+        });
+        window.onload = function() {
+        // executes when complete page is fully loaded, including all frames, objects and images
+        console.log("window is loaded");  
+        // window load  
+        };
+        </script>

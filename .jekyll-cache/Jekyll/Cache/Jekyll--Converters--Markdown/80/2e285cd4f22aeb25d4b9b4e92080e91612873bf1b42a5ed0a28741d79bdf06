@@ -1,17 +1,4 @@
-<html>
-    <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Home</title>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-    <script src="/assets/js/bootstrap.min.js"></script>
-    <link href="/assets/css/font-awesome.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/assets/css/style.css">
-</head>
-  <body>
-     <div class="banner">
+I"�G<div class="banner">
     <div class="container">
  <nav id="nav2" class="navbar navbar-light fixed-top navbar-dark">
     <a class="navbar-brand mr-auto" href="/"><img src="/assets/images/logo.png" alt="." /></a>  
@@ -35,154 +22,155 @@
   </div>
   </div>
 
-<div class="albums">
-    <div class="container">
-        <div class="heading">Albums</div>
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
-        
-        <div class="row listings">
-            <div class="col-md-4 col-lg-4">
-                <div class="innnerbox">
-                    <div class="fig">
+<p>.albums
+    &lt;div class="container"&gt;
+        &lt;div class="heading"&gt;Albums&lt;/div&gt;
+        &lt;p&gt;Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.&lt;/p&gt;
+        &lt;/code&gt;
+        &lt;div class="row listings"&gt;
+            &lt;div class="col-md-4 col-lg-4"&gt;
+                &lt;div class="innnerbox"&gt;
+                    &lt;div class="fig"&gt;
                         <img src="/assets/images/teardrop.jpg" />
-                    </div>
-                    <div class="dispcrp">
-                        <h5>Terry Brown Teardrop, Texas</h5>
-                        <ul>
-    <li>1. Teardrop Texas</li>
-    <li>2. Old Rake</li>
-    <li>3. The Crossing</li>
-    <li>4. Good Enough For Daddy</li>
-    <li>5. Dust on the Flat Top</li>
-    <li>6. The Trust save on earth</li>
-    <li>7. Texas when it strings</li>
-    <li>8. OL Cowboys like me</li>
-    <li>9. These are my favrourite year</li>
-    <li>10. Country to the bone</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="col-md-4 col-lg-4">
-                <div class="innnerbox">
-                <div class="fig">
-                    <img src="/assets/images/cow-boy-thang.jpg" />
-                </div>
-                <div class="dispcrp">
-                        <h5>Terry Brown Teardrop, Texas</h5>
-                        <ul>
-    <li>1. Teardrop Texas</li>
-    <li>2. Old Rake</li>
-    <li>3. The Crossing</li>
-    <li>4. Good Enough For Daddy</li>
-    <li>5. Dust on the Flat Top</li>
-    <li>6. The Trust save on earth</li>
-    <li>7. Texas when it strings</li>
-    <li>8. OL Cowboys like me</li>
-    <li>9. These are my favrourite year</li>
-    <li>10. Country to the bone</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="col-md-4 col-lg-4">
-                <div class="innnerbox">
-                <div class="fig">
-                    <img src="/assets/images/partyonthe.jpg" />
-                </div>
-                <div class="dispcrp">
-                        <h5>Terry Brown Teardrop, Texas</h5>
-                        <ul>
-    <li>1. Teardrop Texas</li>
-    <li>2. Old Rake</li>
-    <li>3. The Crossing</li>
-    <li>4. Good Enough For Daddy</li>
-    <li>5. Dust on the Flat Top</li>
-    <li>6. The Trust save on earth</li>
-    <li>7. Texas when it strings</li>
-    <li>8. OL Cowboys like me</li>
-    <li>9. These are my favrourite year</li>
-    <li>10. Country to the bone</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
+                    &lt;/div&gt;
+                    &lt;div class="dispcrp"&gt;
+                        &lt;h5&gt;Terry Brown Teardrop, Texas&lt;/h5&gt;
+                        &lt;ul&gt;
+    &lt;li&gt;1. Teardrop Texas&lt;/li&gt;
+    &lt;li&gt;2. Old Rake&lt;/li&gt;
+    &lt;li&gt;3. The Crossing&lt;/li&gt;
+    &lt;li&gt;4. Good Enough For Daddy&lt;/li&gt;
+    &lt;li&gt;5. Dust on the Flat Top&lt;/li&gt;
+    &lt;li&gt;6. The Trust save on earth&lt;/li&gt;
+    &lt;li&gt;7. Texas when it strings&lt;/li&gt;
+    &lt;li&gt;8. OL Cowboys like me&lt;/li&gt;
+    &lt;li&gt;9. These are my favrourite year&lt;/li&gt;
+    &lt;li&gt;10. Country to the bone&lt;/li&gt;
+                        &lt;/ul&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>        &lt;div class="col-md-4 col-lg-4"&gt;
+            &lt;div class="innnerbox"&gt;
+            &lt;div class="fig"&gt;
+                &lt;img src="/assets/images/cow-boy-thang.jpg" /&gt;
+            &lt;/div&gt;
+            &lt;div class="dispcrp"&gt;
+                    &lt;h5&gt;Terry Brown Teardrop, Texas&lt;/h5&gt;
+                    &lt;ul&gt;
+&lt;li&gt;1. Teardrop Texas&lt;/li&gt;
+&lt;li&gt;2. Old Rake&lt;/li&gt;
+&lt;li&gt;3. The Crossing&lt;/li&gt;
+&lt;li&gt;4. Good Enough For Daddy&lt;/li&gt;
+&lt;li&gt;5. Dust on the Flat Top&lt;/li&gt;
+&lt;li&gt;6. The Trust save on earth&lt;/li&gt;
+&lt;li&gt;7. Texas when it strings&lt;/li&gt;
+&lt;li&gt;8. OL Cowboys like me&lt;/li&gt;
+&lt;li&gt;9. These are my favrourite year&lt;/li&gt;
+&lt;li&gt;10. Country to the bone&lt;/li&gt;
+                    &lt;/ul&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
         
-        <div class="row">
-            <div class="col-md-4 col-lg-4">
-                <div class="innnerbox">
-                    <div class="fig">
-                        <img src="/assets/images/teardrop.jpg" />
-                    </div>
-                    <div class="dispcrp">
-                        <h5>Terry Brown Teardrop, Texas</h5>
-                        <ul>
-    <li>1. Teardrop Texas</li>
-    <li>2. Old Rake</li>
-    <li>3. The Crossing</li>
-    <li>4. Good Enough For Daddy</li>
-    <li>5. Dust on the Flat Top</li>
-    <li>6. The Trust save on earth</li>
-    <li>7. Texas when it strings</li>
-    <li>8. OL Cowboys like me</li>
-    <li>9. These are my favrourite year</li>
-    <li>10. Country to the bone</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="col-md-4 col-lg-4">
-                <div class="innnerbox">
-                <div class="fig">
-                    <img src="/assets/images/cow-boy-thang.jpg" />
-                </div>
-                <div class="dispcrp">
-                        <h5>Terry Brown Teardrop, Texas</h5>
-                        <ul>
-    <li>1. Teardrop Texas</li>
-    <li>2. Old Rake</li>
-    <li>3. The Crossing</li>
-    <li>4. Good Enough For Daddy</li>
-    <li>5. Dust on the Flat Top</li>
-    <li>6. The Trust save on earth</li>
-    <li>7. Texas when it strings</li>
-    <li>8. OL Cowboys like me</li>
-    <li>9. These are my favrourite year</li>
-    <li>10. Country to the bone</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="col-md-4 col-lg-4">
-                <div class="innnerbox">
-                <div class="fig">
-                    <img src="/assets/images/partyonthe.jpg" />
-                </div>
-                <div class="dispcrp">
-                        <h5>Terry Brown Teardrop, Texas</h5>
-                        <ul>
-    <li>1. Teardrop Texas</li>
-    <li>2. Old Rake</li>
-    <li>3. The Crossing</li>
-    <li>4. Good Enough For Daddy</li>
-    <li>5. Dust on the Flat Top</li>
-    <li>6. The Trust save on earth</li>
-    <li>7. Texas when it strings</li>
-    <li>8. OL Cowboys like me</li>
-    <li>9. These are my favrourite year</li>
-    <li>10. Country to the bone</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>    
-    </div>
+        &lt;div class="col-md-4 col-lg-4"&gt;
+            &lt;div class="innnerbox"&gt;
+            &lt;div class="fig"&gt;
+                &lt;img src="/assets/images/partyonthe.jpg" /&gt;
+            &lt;/div&gt;
+            &lt;div class="dispcrp"&gt;
+                    &lt;h5&gt;Terry Brown Teardrop, Texas&lt;/h5&gt;
+                    &lt;ul&gt;
+&lt;li&gt;1. Teardrop Texas&lt;/li&gt;
+&lt;li&gt;2. Old Rake&lt;/li&gt;
+&lt;li&gt;3. The Crossing&lt;/li&gt;
+&lt;li&gt;4. Good Enough For Daddy&lt;/li&gt;
+&lt;li&gt;5. Dust on the Flat Top&lt;/li&gt;
+&lt;li&gt;6. The Trust save on earth&lt;/li&gt;
+&lt;li&gt;7. Texas when it strings&lt;/li&gt;
+&lt;li&gt;8. OL Cowboys like me&lt;/li&gt;
+&lt;li&gt;9. These are my favrourite year&lt;/li&gt;
+&lt;li&gt;10. Country to the bone&lt;/li&gt;
+                    &lt;/ul&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    
+    &lt;div class="row"&gt;
+        &lt;div class="col-md-4 col-lg-4"&gt;
+            &lt;div class="innnerbox"&gt;
+                &lt;div class="fig"&gt;
+                    &lt;img src="/assets/images/teardrop.jpg" /&gt;
+                &lt;/div&gt;
+                &lt;div class="dispcrp"&gt;
+                    &lt;h5&gt;Terry Brown Teardrop, Texas&lt;/h5&gt;
+                    &lt;ul&gt;
+&lt;li&gt;1. Teardrop Texas&lt;/li&gt;
+&lt;li&gt;2. Old Rake&lt;/li&gt;
+&lt;li&gt;3. The Crossing&lt;/li&gt;
+&lt;li&gt;4. Good Enough For Daddy&lt;/li&gt;
+&lt;li&gt;5. Dust on the Flat Top&lt;/li&gt;
+&lt;li&gt;6. The Trust save on earth&lt;/li&gt;
+&lt;li&gt;7. Texas when it strings&lt;/li&gt;
+&lt;li&gt;8. OL Cowboys like me&lt;/li&gt;
+&lt;li&gt;9. These are my favrourite year&lt;/li&gt;
+&lt;li&gt;10. Country to the bone&lt;/li&gt;
+                    &lt;/ul&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        
+        &lt;div class="col-md-4 col-lg-4"&gt;
+            &lt;div class="innnerbox"&gt;
+            &lt;div class="fig"&gt;
+                &lt;img src="/assets/images/cow-boy-thang.jpg" /&gt;
+            &lt;/div&gt;
+            &lt;div class="dispcrp"&gt;
+                    &lt;h5&gt;Terry Brown Teardrop, Texas&lt;/h5&gt;
+                    &lt;ul&gt;
+&lt;li&gt;1. Teardrop Texas&lt;/li&gt;
+&lt;li&gt;2. Old Rake&lt;/li&gt;
+&lt;li&gt;3. The Crossing&lt;/li&gt;
+&lt;li&gt;4. Good Enough For Daddy&lt;/li&gt;
+&lt;li&gt;5. Dust on the Flat Top&lt;/li&gt;
+&lt;li&gt;6. The Trust save on earth&lt;/li&gt;
+&lt;li&gt;7. Texas when it strings&lt;/li&gt;
+&lt;li&gt;8. OL Cowboys like me&lt;/li&gt;
+&lt;li&gt;9. These are my favrourite year&lt;/li&gt;
+&lt;li&gt;10. Country to the bone&lt;/li&gt;
+                    &lt;/ul&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        
+        &lt;div class="col-md-4 col-lg-4"&gt;
+            &lt;div class="innnerbox"&gt;
+            &lt;div class="fig"&gt;
+                &lt;img src="/assets/images/partyonthe.jpg" /&gt;
+            &lt;/div&gt;
+            &lt;div class="dispcrp"&gt;
+                    &lt;h5&gt;Terry Brown Teardrop, Texas&lt;/h5&gt;
+                    &lt;ul&gt;
+&lt;li&gt;1. Teardrop Texas&lt;/li&gt;
+&lt;li&gt;2. Old Rake&lt;/li&gt;
+&lt;li&gt;3. The Crossing&lt;/li&gt;
+&lt;li&gt;4. Good Enough For Daddy&lt;/li&gt;
+&lt;li&gt;5. Dust on the Flat Top&lt;/li&gt;
+&lt;li&gt;6. The Trust save on earth&lt;/li&gt;
+&lt;li&gt;7. Texas when it strings&lt;/li&gt;
+&lt;li&gt;8. OL Cowboys like me&lt;/li&gt;
+&lt;li&gt;9. These are my favrourite year&lt;/li&gt;
+&lt;li&gt;10. Country to the bone&lt;/li&gt;
+                    &lt;/ul&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;    
+&lt;/div&gt;
+</code></pre></div></div>
 
 <div class="upcomming">
 	<div class="container">
@@ -389,38 +377,4 @@ be affected by a markdown parser. However, if you create an HTML element in your
 markdown file, you cannot use markdown syntax within that element's contents.
 -->
 
-
-     <div class="footer">
-    <img src="/assets/images/logo2.png" />
-    
-    <div class="social">
-        <i class="fab fa-facebook-f"></i>  <i class="fab fa-linkedin"></i>  <i class="fab fa-twitter"></i>  <i class="fab fa-youtube"></i>  <i class="fab fa-spotify"></i>
-    </div>
-    
-    <div class="nav2">
-        <ul>
-            <li><a href="#">Privacy Policy</a></li>
-            <li><a href="#">Terms and conditions</a></li>
-            <li><a href="#">Contact</a></li>
-            <li><a href="#">Credit</a></li>
-        </ul>
-    </div>
-    <div class="copy">© 2020 terrybrownmusic.com</div>
-    </div>
-    <script> 
-        $(document).ready(function() {
-         // executes when HTML-Document is loaded and DOM is ready
-        console.log("document is ready");
-        $('[data-toggle="offcanvas"], #navToggle').on('click', function () {
-        $('.offcanvas-collapse').toggleClass('open')
-          })
-        // document ready  
-        });
-        window.onload = function() {
-        // executes when complete page is fully loaded, including all frames, objects and images
-        console.log("window is loaded");  
-        // window load  
-        };
-        </script>
-  </body>
-</html>
+:ET

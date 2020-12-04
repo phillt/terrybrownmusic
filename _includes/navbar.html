@@ -1,0 +1,17 @@
+<nav id="nav2" class="navbar navbar-light fixed-top navbar-dark">
+    <a class="navbar-brand mr-auto" href="/"><img src="{{ site.baseurl }}/assets/images/logo.png" alt="."></a>  
+  <div class="nav-box">
+  <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#account" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+  </button>
+  
+  <div class="navbar-collapse collapse" id="account">
+              <ul class="navbar-nav ml-auto">
+                {%- for link in site.data.navigation.main -%}
+                  <li class="nav-item"><a class="nav-link" href="{{ link.url | relative_url }}">{{ link.title }}</a></li>
+                {%- endfor -%}
+              </ul>
+          </div>
+  </div>
+</nav>
+ 

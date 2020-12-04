@@ -1,0 +1,11 @@
+<html>
+  <head>
+    {% include head.html %}
+  </head>
+  <body class="layout--{{page.layout | default: layout.layout}}">
+     {{ content }}
+     <div class="footer">
+     {% include footer.html %}
+    </div>
+  </body>
+</html>

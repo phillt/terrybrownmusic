@@ -1,0 +1,36 @@
+
+    <img src="{{'/assets/images/logo2.png' | relative_url }}" />
+    
+    <div class="social">
+        {% if site.footer.links %}
+        {% for link in site.footer.links %}
+          {% if link.url or link.icon %}
+            <a href="{{ link.url }}" rel="nofollow noopener noreferrer"><i class="{{ link.icon | default: 'fas fa-link' }}" aria-hidden="true"></i></a>
+          {% endif %}
+        {% endfor %}
+      {% endif %}
+    </div>
+    
+    <div class="nav2">
+        <ul>
+          {%- for link in site.data.navigation.footernav -%}
+            <li><a href="{{ link.url | relative_url }}">{{ link.title }}</a></li>
+          {%- endfor -%}
+        </ul>
+    </div>
+    <div class="copy">{{ site.footercopyright }}</div>
+    <script> 
+        $(document).ready(function() {
+         // executes when HTML-Document is loaded and DOM is ready
+        console.log("document is ready");
+        $('[data-toggle="offcanvas"], #navToggle').on('click', function () {
+        $('.offcanvas-collapse').toggleClass('open')
+          })
+        // document ready  
+        });
+        window.onload = function() {
+        // executes when complete page is fully loaded, including all frames, objects and images
+        console.log("window is loaded");  
+        // window load  
+        };
+        </script>

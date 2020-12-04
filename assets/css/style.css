@@ -1,0 +1,151 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+font-family: 'Helvetica Neue LT Std';
+src: url('../fonts/helveticaneueltstd-blk.eot');
+src: url('../fonts/helveticaneueltstd-blk.eot?#iefix') format('embedded-opentype'),
+url('../fonts/helveticaneueltstd-blk.woff2') format('woff2'),
+url('../fonts/helveticaneueltstd-blk.woff') format('woff'),
+url('../fonts/helveticaneueltstd-blk.ttf')  format('truetype'),
+url('../fonts/helveticaneueltstd-blk.svg#Helvetica Neue LT Std') format('svg');
+}
+body{ font-family: "Times New Roman", Times, serif;}
+ul{ padding:0; margin:0; list-style:none;}
+.clr{ clear:both;}
+.fl{ float:left;}
+.fr{ float:right;}
+.banner{ background:url(../images/banner.jpg) no-repeat top center; width:100%; /*display:flex; height:100%; */background-size:cover; padding:27% 0;}
+
+.fixed-top{ position:absolute; top:0;}
+.nav-box{ display:flex;flex-direction: column; position: absolute; top: 30px;right: 20px;}
+.navbar-collapse{ position:absolute; top:40px; width:200px; right:0;}
+.navbar-collapse ul{ text-align:right;}
+.navbar-collapse ul .nav-link{ padding:5px 0; color:#FFF !important;}
+.btns{ position: absolute; top: 30px;right: 30px;}
+
+.albums{ background:#fffbe7; text-align:center; padding:80px 0;}
+.heading{ font-size:40px; color:#bf1e2d; text-transform:uppercase; text-align:center;}
+p{ font-size:20px; line-height:30px; color:#4c4c4c;}
+.innnerbox{ background:#FFF;}
+.dispcrp{ padding:25px; text-align:left;}
+.dispcrp ul{ padding:0; margin:0; list-style:none;}
+.dispcrp ul li{ display:block; text-align:left; line-height:30px;}
+.fig img{ width:100%;}
+
+.listings{ margin-top:60px; margin-bottom:30px;}
+.upcomming{ background:url(../images/banner2.jpg) no-repeat top center; display:flex; width:100%; background-size:cover;padding: 80px 0;}
+.heading-bg{background:url(../images/div.png) no-repeat bottom center; padding-bottom:20px;}
+.ticket-list{ max-width:750px; margin:0 auto;}
+.table, .table td{ border:none; color:#FFF; vertical-align:middle; font-family:"Myriad Pro";}
+.table tr td{ padding:20px 0;}
+.table tr td:nth-child(1){ font-size:54px;}
+.table tr td:nth-child(3){ font-size:26px; font-weight:500;}
+.table tr td:last-child{ text-align:center;}
+.table tr td:last-child strong{ text-decoration:line-through; color:#FFF; text-align:center; font-weight:400;}
+.table tr td span{ font-size:14px; font-weight:300;}
+.table button{ border:0; background:#FFF; color:#000; font-size:16px; font-family:Arial, Helvetica, sans-serif; border-radius:5px; padding:10px 20px;}
+.gallery{ background:#f5f4ef; padding:80px 0;}
+.gallery .heading-bg, .latest-video .heading-bg, .box2 .heading-bg{background:url(../images/hed2.png) no-repeat bottom center; margin-bottom:30px;}
+.img-thumbnail{ border-radius:0; padding:.60rem; border:none;}
+.latest-video { padding:80px 0;}
+
+.footer{ background:url(../images/footer.jpg) no-repeat top center; text-align:center; justify-content:center; display:flex; width:100%; background-size:cover;padding: 135px 0 280px; flex-wrap:wrap; flex-direction:row; color:#FFF; font-family:Arial, Helvetica, sans-serif;}
+.social{ padding:40px 0;}
+.social, .nav2{ display:flex; width:100%; justify-content:center;}
+.social a{color:#fff;}
+.nav2 li{ display:inline-block;}
+.nav2 li a{ text-decoration:none; color:#FFF; margin:0 10px; font-size:14px; }
+.social i{ margin:0 10px; font-size:20px;  }
+.copy{font-size:14px; margin-top:10px;}
+.vid-slider{ margin-top:80px;}
+
+
+/*=======28-11-2020=====*/
+.trick-roping{background:url(../images/bg3.jpg) no-repeat top center; width:100%; background-size:cover; padding:19% 0; text-align:center;}
+.trick-roping .heading{ font-size:50px; color:#FFF; font-weight:700;}
+.trick-roping p{ padding:80px 10% 0;}
+.innnerbox2{ border:10px solid #b5bdc9; padding:10px; margin:0 25px;}
+
+.box1{background:url(../images/bg4.jpg) no-repeat top center; width:100%; background-size:cover; padding:100px 0 80px; text-align:center;}
+.box1 p{ padding:40px 0;}
+.box2{background:url(../images/bg5.jpg) no-repeat top center; width:100%; background-size:cover; padding:100px 0 80px; text-align:center;}
+.textbox1{ text-align:left; padding:60px;display: flex; flex-wrap: wrap; align-items: center; height: 100%;}
+.textbox1 strong{ margin-bottom:10px;}
+.sp1{ margin-top:100px;}
+.new-gall img{ padding:0; border:none; width:98%;}
+.col-lg-4{ text-align:center;}
+
+
+@media (min-width: 768px) {
+
+    /* show 3 items */
+    .carouselPrograms .carousel-inner .active,
+    .carouselPrograms .carousel-inner .active + .carousel-item,
+    .carouselPrograms .carousel-inner .active + .carousel-item + .carousel-item {
+        display: block;
+    }
+
+    .carouselPrograms .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left),
+    .carouselPrograms .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item,
+    .carouselPrograms .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item + .carousel-item {
+        transition: none;
+    }
+
+    .carouselPrograms .carousel-inner .carousel-item-next,
+    .carouselPrograms .carousel-inner .carousel-item-prev {
+        position: relative;
+        transform: translate3d(0, 0, 0);
+    }
+
+    .carouselPrograms .carousel-inner .active.carousel-item + .carousel-item + .carousel-item + .carousel-item {
+        position: absolute;
+        top: 0;
+        right: -33.333%;
+        z-index: -1;
+        display: block;
+        visibility: visible;
+    }
+
+    /* left or forward direction */
+    .carouselPrograms .active.carousel-item-left + .carousel-item-next.carousel-item-left,
+    .carouselPrograms .carousel-item-next.carousel-item-left + .carousel-item,
+    .carouselPrograms .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item,
+    .carouselPrograms .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item + .carousel-item {
+        position: relative;
+        transform: translate3d(-100%, 0, 0);
+        visibility: visible;
+    }
+
+    /* farthest right hidden item must be abso position for animations */
+    .carouselPrograms .carousel-inner .carousel-item-prev.carousel-item-right {
+        position: absolute;
+        top: 0;
+        left: 0%;
+        z-index: -1;
+        display: block;
+        visibility: visible;
+    }
+
+    /* right or prev direction */
+    .carouselPrograms .active.carousel-item-right + .carousel-item-prev.carousel-item-right,
+    .carouselPrograms .carousel-item-prev.carousel-item-right + .carousel-item,
+    .carouselPrograms .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item,
+    .carouselPrograms .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item + .carousel-item {
+        position: relative;
+        transform: translate3d(100%, 0, 0);
+        visibility: visible;
+        display: block;
+        visibility: visible;
+    }
+}
+
+@media screen and (max-width: 768px) and (min-width: 300px){
+.navbar-brand img{ max-width:100px;}
+}
+@media screen and (max-width: 640px) and (min-width: 300px){
+.table tr td:nth-child(1) {font-size: 32px;}
+.table tr td{ font-size:12px;}
+.table tr td:nth-child(3) { font-size: 15px;}
+.table tr td span {font-size: 12px;}
+.table button{ font-size:9px;}
+}

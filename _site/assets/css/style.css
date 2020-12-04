@@ -52,6 +52,7 @@ p{ font-size:20px; line-height:30px; color:#4c4c4c;}
 .footer{ background:url(../images/footer.jpg) no-repeat top center; text-align:center; justify-content:center; display:flex; width:100%; background-size:cover;padding: 135px 0 280px; flex-wrap:wrap; flex-direction:row; color:#FFF; font-family:Arial, Helvetica, sans-serif;}
 .social{ padding:40px 0;}
 .social, .nav2{ display:flex; width:100%; justify-content:center;}
+.social a{color:#fff;}
 .nav2 li{ display:inline-block;}
 .nav2 li a{ text-decoration:none; color:#FFF; margin:0 10px; font-size:14px; }
 .social i{ margin:0 10px; font-size:20px;  }

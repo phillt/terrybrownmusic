@@ -7,11 +7,9 @@
   
   <div class="navbar-collapse collapse" id="account">
               <ul class="navbar-nav ml-auto">
-                  <li class="nav-item"><a class="nav-link" href="/trickroping/">Trick Roping in Texas</a></li>
-                  <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
-                  <li class="nav-item"><a class="nav-link" href="#">FAQS</a></li>
-                  <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
-                  <li class="nav-item"><a class="nav-link" href="#">Pet's Flyer</a></li>
+                {%- for link in site.data.navigation.main -%}
+                  <li class="nav-item"><a class="nav-link" href="{{ link.url | relative_url }}">{{ link.title }}</a></li>
+                {%- endfor -%}
               </ul>
           </div>
   </div>

@@ -1,20 +1,24 @@
-<div class="footer">
-    <img src="{{ site.baseurl }}/assets/images/logo2.png" />
+
+    <img src="{{'/assets/images/logo2.png' | relative_url }}" />
     
     <div class="social">
-        <i class="fab fa-facebook-f"></i>  <i class="fab fa-linkedin"></i>  <i class="fab fa-twitter"></i>  <i class="fab fa-youtube"></i>  <i class="fab fa-spotify"></i>
+        {% if site.footer.links %}
+        {% for link in site.footer.links %}
+          {% if link.url or link.icon %}
+            <a href="{{ link.url }}" rel="nofollow noopener noreferrer"><i class="{{ link.icon | default: 'fas fa-link' }}" aria-hidden="true"></i></a>
+          {% endif %}
+        {% endfor %}
+      {% endif %}
     </div>
     
     <div class="nav2">
         <ul>
-            <li><a href="#">Privacy Policy</a></li>
-            <li><a href="#">Terms and conditions</a></li>
-            <li><a href="#">Contact</a></li>
-            <li><a href="#">Credit</a></li>
+          {%- for link in site.data.navigation.footernav -%}
+            <li><a href="{{ link.url | relative_url }}">{{ link.title }}</a></li>
+          {%- endfor -%}
         </ul>
     </div>
-    <div class="copy">© 2020 terrybrownmusic.com</div>
-    </div>
+    <div class="copy">{{ site.footercopyright }}</div>
     <script> 
         $(document).ready(function() {
          // executes when HTML-Document is loaded and DOM is ready

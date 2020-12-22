@@ -2,10 +2,10 @@
 main:
   - title: "Trick Roping in Texas"
     url: /trickroping/
-  - title: "Innerpaeg"
-    url: #
-  - title: "Innerpaeg"
-    url: #
+  #- title: "Innerpaeg"
+  #  url: #
+  #- title: "Innerpaeg"
+  #  url: #
   # - title: "Innerpaeg"
   #   url: /collection-archive/
   # - title: "Innerpaeg"
@@ -13,11 +13,11 @@ main:
 
 #footer links
 footernav:
-      - title: "Privacy Policy"
+      - title: "Trick Roping in Texas"
+        url: /trickroping/
+      - title: "Innerpage"
         url: #
-      - title: "Terms and conditions"
+      - title: "Innerpage"
         url: #
-      - title: "Contact"
-        url: #
-      - title: "Credit"
+      - title: "Innerpage"
         url: #

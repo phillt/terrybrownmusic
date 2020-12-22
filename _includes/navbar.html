@@ -1,7 +1,7 @@
 <nav id="nav2" class="navbar navbar-light fixed-top navbar-dark">
-    <a class="navbar-brand mr-auto" href="/"><img src="{{ site.baseurl }}/assets/images/logo.png" alt="."></a>  
+    <a class="navbar-brand mr-auto" href="/"><img src="{{'/assets/images/logo.png' | relative_url}}" alt="."></a>  
   <div class="nav-box">
-  <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#account" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+  <!--<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#account" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
   </button>
   
@@ -11,7 +11,7 @@
                   <li class="nav-item"><a class="nav-link" href="{{ link.url | relative_url }}">{{ link.title }}</a></li>
                 {%- endfor -%}
               </ul>
-          </div>
+          </div>-->
   </div>
 </nav>
  
